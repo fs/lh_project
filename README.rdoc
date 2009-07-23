@@ -1,0 +1,14 @@
+= Lhproject
+
+Creates new Lighthouse project by template from config
+Currently supports only name and ticket bin b/c LH API have no support for ticket states and other useful stuff.
+
+== Install
+
+* sudo gem install fs-lh_project
+* configure config.yml: access to the Lighthouse & ticket bins
+* check how it works: lh_project -c config/config.yml -p new_project
+
+== Copyright
+
+Copyright (c) 2009 Flatsoft, LLC. See LICENSE for details.
