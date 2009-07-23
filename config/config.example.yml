@@ -1,0 +1,8 @@
+lighthouse:
+  account: test
+  token: test
+
+project:
+  ticket_bins: {'QA: needed': 'state:qa_needed', 'QA: rejected': 'state:rejected_by_qa', 'QA: accepted, need to deliver': 'state:accepted_by_qa', 'Rejected after client review': 'state:rejected_by_client', 'Closed tickets': 'state:closed', 'All tickets': 'all'}
+
+verbose: true
